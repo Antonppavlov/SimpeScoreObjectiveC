@@ -8,24 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		12F5ABB91FC7102C003F0970 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 12F5ABB81FC7102C003F0970 /* AppDelegate.m */; };
-		12F5ABBC1FC7102C003F0970 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12F5ABBB1FC7102C003F0970 /* ViewController.m */; };
+		12F5ABBC1FC7102C003F0970 /* ScoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12F5ABBB1FC7102C003F0970 /* ScoreViewController.m */; };
 		12F5ABBF1FC7102C003F0970 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12F5ABBD1FC7102C003F0970 /* Main.storyboard */; };
 		12F5ABC11FC7102C003F0970 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12F5ABC01FC7102C003F0970 /* Assets.xcassets */; };
 		12F5ABC41FC7102C003F0970 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12F5ABC21FC7102C003F0970 /* LaunchScreen.storyboard */; };
 		12F5ABC71FC7102C003F0970 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 12F5ABC61FC7102C003F0970 /* main.m */; };
+		12F5ABD01FC7115C003F0970 /* CartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12F5ABCF1FC7115C003F0970 /* CartViewController.m */; };
+		12F5ABD31FC7117D003F0970 /* ThankYouViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12F5ABD21FC7117D003F0970 /* ThankYouViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		12F5ABB41FC7102C003F0970 /* SimpeScoreObjectiveC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpeScoreObjectiveC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		12F5ABB71FC7102C003F0970 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		12F5ABB81FC7102C003F0970 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		12F5ABBA1FC7102C003F0970 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		12F5ABBB1FC7102C003F0970 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		12F5ABBA1FC7102C003F0970 /* ScoreViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScoreViewController.h; sourceTree = "<group>"; };
+		12F5ABBB1FC7102C003F0970 /* ScoreViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScoreViewController.m; sourceTree = "<group>"; };
 		12F5ABBE1FC7102C003F0970 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		12F5ABC01FC7102C003F0970 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		12F5ABC31FC7102C003F0970 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		12F5ABC51FC7102C003F0970 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		12F5ABC61FC7102C003F0970 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		12F5ABCE1FC7115C003F0970 /* CartViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CartViewController.h; sourceTree = "<group>"; };
+		12F5ABCF1FC7115C003F0970 /* CartViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CartViewController.m; sourceTree = "<group>"; };
+		12F5ABD11FC7117D003F0970 /* ThankYouViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThankYouViewController.h; sourceTree = "<group>"; };
+		12F5ABD21FC7117D003F0970 /* ThankYouViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThankYouViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +64,9 @@
 		12F5ABB61FC7102C003F0970 /* SimpeScoreObjectiveC */ = {
 			isa = PBXGroup;
 			children = (
+				12F5ABCD1FC71113003F0970 /* controller */,
 				12F5ABB71FC7102C003F0970 /* AppDelegate.h */,
 				12F5ABB81FC7102C003F0970 /* AppDelegate.m */,
-				12F5ABBA1FC7102C003F0970 /* ViewController.h */,
-				12F5ABBB1FC7102C003F0970 /* ViewController.m */,
 				12F5ABBD1FC7102C003F0970 /* Main.storyboard */,
 				12F5ABC01FC7102C003F0970 /* Assets.xcassets */,
 				12F5ABC21FC7102C003F0970 /* LaunchScreen.storyboard */,
@@ -69,6 +74,19 @@
 				12F5ABC61FC7102C003F0970 /* main.m */,
 			);
 			path = SimpeScoreObjectiveC;
+			sourceTree = "<group>";
+		};
+		12F5ABCD1FC71113003F0970 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				12F5ABBA1FC7102C003F0970 /* ScoreViewController.h */,
+				12F5ABBB1FC7102C003F0970 /* ScoreViewController.m */,
+				12F5ABCE1FC7115C003F0970 /* CartViewController.h */,
+				12F5ABCF1FC7115C003F0970 /* CartViewController.m */,
+				12F5ABD11FC7117D003F0970 /* ThankYouViewController.h */,
+				12F5ABD21FC7117D003F0970 /* ThankYouViewController.m */,
+			);
+			name = controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,7 +160,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				12F5ABBC1FC7102C003F0970 /* ViewController.m in Sources */,
+				12F5ABD01FC7115C003F0970 /* CartViewController.m in Sources */,
+				12F5ABD31FC7117D003F0970 /* ThankYouViewController.m in Sources */,
+				12F5ABBC1FC7102C003F0970 /* ScoreViewController.m in Sources */,
 				12F5ABC71FC7102C003F0970 /* main.m in Sources */,
 				12F5ABB91FC7102C003F0970 /* AppDelegate.m in Sources */,
 			);
