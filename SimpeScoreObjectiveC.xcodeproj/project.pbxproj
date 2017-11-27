@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		12783C521FCCC25200A422CD /* Settings.m in Sources */ = {isa = PBXBuildFile; fileRef = 12783C511FCCC25200A422CD /* Settings.m */; };
 		12F5ABB91FC7102C003F0970 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 12F5ABB81FC7102C003F0970 /* AppDelegate.m */; };
 		12F5ABBC1FC7102C003F0970 /* ScoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12F5ABBB1FC7102C003F0970 /* ScoreViewController.m */; };
 		12F5ABBF1FC7102C003F0970 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12F5ABBD1FC7102C003F0970 /* Main.storyboard */; };
@@ -18,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		12783C511FCCC25200A422CD /* Settings.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Settings.m; sourceTree = "<group>"; };
+		12783C531FCCC8DB00A422CD /* Settings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Settings.h; sourceTree = "<group>"; };
 		12F5ABB41FC7102C003F0970 /* SimpeScoreObjectiveC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpeScoreObjectiveC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		12F5ABB71FC7102C003F0970 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		12F5ABB81FC7102C003F0970 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -45,6 +48,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		12783C4D1FCCC19F00A422CD /* class */ = {
+			isa = PBXGroup;
+			children = (
+				12783C511FCCC25200A422CD /* Settings.m */,
+				12783C531FCCC8DB00A422CD /* Settings.h */,
+			);
+			name = class;
+			sourceTree = "<group>";
+		};
 		12F5ABAB1FC7102C003F0970 = {
 			isa = PBXGroup;
 			children = (
@@ -64,6 +76,7 @@
 		12F5ABB61FC7102C003F0970 /* SimpeScoreObjectiveC */ = {
 			isa = PBXGroup;
 			children = (
+				12783C4D1FCCC19F00A422CD /* class */,
 				12F5ABCD1FC71113003F0970 /* controller */,
 				12F5ABB71FC7102C003F0970 /* AppDelegate.h */,
 				12F5ABB81FC7102C003F0970 /* AppDelegate.m */,
@@ -163,6 +176,7 @@
 				12F5ABD01FC7115C003F0970 /* CartViewController.m in Sources */,
 				12F5ABD31FC7117D003F0970 /* ThankYouViewController.m in Sources */,
 				12F5ABBC1FC7102C003F0970 /* ScoreViewController.m in Sources */,
+				12783C521FCCC25200A422CD /* Settings.m in Sources */,
 				12F5ABC71FC7102C003F0970 /* main.m in Sources */,
 				12F5ABB91FC7102C003F0970 /* AppDelegate.m in Sources */,
 			);
@@ -238,7 +252,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -287,7 +301,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -299,7 +313,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = W76ZQSY64Q;
+				DEVELOPMENT_TEAM = 92DDWGSQRK;
 				INFOPLIST_FILE = SimpeScoreObjectiveC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ru.admitadteam.SimpeScoreObjectiveC;
@@ -313,7 +327,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = W76ZQSY64Q;
+				DEVELOPMENT_TEAM = 92DDWGSQRK;
 				INFOPLIST_FILE = SimpeScoreObjectiveC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ru.admitadteam.SimpeScoreObjectiveC;

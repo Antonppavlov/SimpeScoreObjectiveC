@@ -133,10 +133,15 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="buttonAddToCart" destination="5dr-z0-hvV" id="CpE-w8-lOg"/>
+                        <outlet property="buttonBuyNow" destination="liZ-kt-iPY" id="JGt-c2-9fo"/>
                         <outlet property="buttonCamera" destination="5q8-TM-VXB" id="1lU-NO-y9o"/>
                         <outlet property="buttonIphone" destination="7Nk-HL-fWz" id="sgS-iT-hTD"/>
+                        <outlet property="buttonKeyboard" destination="ndO-oF-TbP" id="7Lh-Yu-i8K"/>
                         <outlet property="buttonMouse" destination="xmf-iS-77C" id="fXv-ae-Z4W"/>
+                        <outlet property="buttonNoteBook" destination="xT9-Zc-1lQ" id="3Bv-X4-v4U"/>
                         <outlet property="buttonPS4" destination="Vay-ir-dr2" id="jCQ-kd-QjK"/>
+                        <outlet property="labelTotalMoney" destination="TJn-5P-THg" id="YO2-cV-wWf"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -146,7 +151,7 @@
         <!--Cart View Controller-->
         <scene sceneID="GpO-IE-LPm">
             <objects>
-                <viewController id="yk4-kb-gYx" customClass="CartViewController" customModule="SimpeScoreObjectiveC" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="yk4-kb-gYx" customClass="CartViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5L4-Ye-FQp">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -203,15 +208,20 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="AM8-Xy-ens"/>
                     </view>
+                    <connections>
+                        <outlet property="buttonBack" destination="2VV-dC-5fk" id="kyj-sI-mh2"/>
+                        <outlet property="buttonBuyItHere" destination="9Kn-pg-exa" id="uPX-AQ-zg3"/>
+                        <outlet property="labelTotalMoney" destination="UQN-9U-Mmi" id="Kzh-bY-dgH"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lRT-UQ-grp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-353" y="36"/>
+            <point key="canvasLocation" x="-1602" y="36"/>
         </scene>
         <!--Thank You View Controller-->
         <scene sceneID="VD1-k2-V6G">
             <objects>
-                <viewController id="Fa5-ZL-F6K" customClass="ThankYouViewController" customModule="SimpeScoreObjectiveC" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Fa5-ZL-F6K" customClass="ThankYouViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="hqi-cc-pJI">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -256,10 +266,14 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="NUz-mr-NSg"/>
                     </view>
+                    <connections>
+                        <outlet property="buttonBack" destination="2rd-Nr-RaT" id="qmu-ie-eKN"/>
+                        <outlet property="labelTotalMoney" destination="iRu-fG-lbc" id="6ff-Xt-fAu"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2fV-2c-bjQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1855" y="36"/>
+            <point key="canvasLocation" x="-777" y="36"/>
         </scene>
     </scenes>
     <resources>
@@ -275,7 +289,7 @@
         <image name="ps4" width="900" height="844"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="tqI-3O-CgC"/>
+        <segue reference="awS-fK-eDd"/>
         <segue reference="lHH-Gh-akY"/>
     </inferredMetricsTieBreakers>
 </document>

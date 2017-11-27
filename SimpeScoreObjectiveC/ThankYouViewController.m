@@ -7,8 +7,12 @@
 //
 
 #import "ThankYouViewController.h"
+#import "Settings.h"
 
 @interface ThankYouViewController ()
+@property (weak, nonatomic) IBOutlet UILabel *labelTotalMoney;
+@property (weak, nonatomic) IBOutlet UIButton *buttonBack;
+
 
 @end
 
@@ -16,22 +20,14 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    _labelTotalMoney.text = [NSString stringWithFormat:@"%i", [Settings sharedSettings].totaMoney];
+    
+    [self.buttonBack addTarget:self action:@selector(pressButtonBack) forControlEvents:UIControlEventTouchUpInside];
+}
+-(void)pressButtonBack{
+    [Settings sharedSettings].totaMoney=0;
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end
+
