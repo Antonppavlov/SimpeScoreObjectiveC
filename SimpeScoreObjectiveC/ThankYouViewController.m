@@ -24,6 +24,7 @@
     
     [self.buttonBack addTarget:self action:@selector(pressButtonBack) forControlEvents:UIControlEventTouchUpInside];
 }
+
 -(void)pressButtonBack{
     [Settings sharedSettings].totaMoney=0;
 }

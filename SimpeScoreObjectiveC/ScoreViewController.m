@@ -48,9 +48,7 @@ int intMoneyNoteBook = 40000;
     if([Settings sharedSettings].totaMoney==0){
         self.buttonAddToCart.userInteractionEnabled = NO;
         self.buttonBuyNow.userInteractionEnabled = NO;
-        
         self.buttonAddToCart.alpha = 0.3;
-        
         self.buttonBuyNow.alpha = 0.3;
     }
 }
@@ -78,44 +76,33 @@ int intMoneyNoteBook = 40000;
 }
 
 - (void) pressButtonIphone{
-    //  NSLog(@"pressButtonIphone");
     [self summ:intMoneyIphone];
 }
 
 - (void) pressButtonMouse{
-    // NSLog(@"pressButtonMouse");
     [self summ:intMoneyMouse];
 }
 
 - (void) pressButtonPS4{
-    // NSLog(@"pressButtonPS4");
     [self summ:intMoneyPS4];
 }
 
 - (void) pressButtonCamera{
-    //  NSLog(@"pressButtonCamera");
     [self summ:intMoneyCamera];
 }
 
 - (void) pressButtonKeyboard{
-    // NSLog(@"pressButtonKeyboard");
     [self summ:intMoneyKeyboard];
 }
 
 - (void) pressButtonNoteBook{
-    // NSLog(@"pressButtonNoteBook");
     [self summ:intMoneyNoteBook];
 }
 
 - (void) pressButtonAddToCart{
-    //   NSLog(@"pressButtonAddToCart");
-    //   [self summ:intMoneyIphone];
 }
 
 - (void) pressButtonBuyNow{
-    // NSLog(@"pressButtonBuyNow");
-    // [self summ:intMoneyIphone];
-    
 }
 
 -(void) summ:(int)money {
@@ -123,7 +110,6 @@ int intMoneyNoteBook = 40000;
     
     NSString* myNewString = [NSString stringWithFormat:@"%i", [Settings sharedSettings].totaMoney];
     _labelTotalMoney.text = myNewString;
-    
     
     self.buttonAddToCart.userInteractionEnabled = YES;
     self.buttonBuyNow.userInteractionEnabled = YES;
