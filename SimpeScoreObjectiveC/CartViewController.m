@@ -25,10 +25,9 @@
     [super viewDidLoad];
     _labelTotalMoney.text = [NSString stringWithFormat:@"%i", [Settings sharedSettings].totaMoney];
     
+    [self.buttonBack addTarget:self action:@selector(pressButtonBack) forControlEvents:UIControlEventTouchUpInside];
     
-        [self.buttonBack addTarget:self action:@selector(pressButtonBack) forControlEvents:UIControlEventTouchUpInside];
-    
-        [self.buttonBuyItHere addTarget:self action:@selector(pressButtonBuyItHere) forControlEvents:UIControlEventTouchUpInside];
+    [self.buttonBuyItHere addTarget:self action:@selector(pressButtonBuyItHere) forControlEvents:UIControlEventTouchUpInside];
     
 }
 
@@ -36,8 +35,9 @@
     
 }
 -(void)pressButtonBuyItHere{
- 
+    
 }
 
 
 @end
+

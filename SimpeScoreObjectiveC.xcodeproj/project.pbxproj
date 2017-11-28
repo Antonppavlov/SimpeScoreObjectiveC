@@ -57,6 +57,24 @@
 			name = class;
 			sourceTree = "<group>";
 		};
+		128A961E1FCD504100F74DD2 /* storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				12F5ABBD1FC7102C003F0970 /* Main.storyboard */,
+				12F5ABC21FC7102C003F0970 /* LaunchScreen.storyboard */,
+			);
+			name = storyboard;
+			sourceTree = "<group>";
+		};
+		128A961F1FCD506700F74DD2 /* delegate */ = {
+			isa = PBXGroup;
+			children = (
+				12F5ABB71FC7102C003F0970 /* AppDelegate.h */,
+				12F5ABB81FC7102C003F0970 /* AppDelegate.m */,
+			);
+			name = delegate;
+			sourceTree = "<group>";
+		};
 		12F5ABAB1FC7102C003F0970 = {
 			isa = PBXGroup;
 			children = (
@@ -76,13 +94,11 @@
 		12F5ABB61FC7102C003F0970 /* SimpeScoreObjectiveC */ = {
 			isa = PBXGroup;
 			children = (
+				128A961F1FCD506700F74DD2 /* delegate */,
+				128A961E1FCD504100F74DD2 /* storyboard */,
 				12783C4D1FCCC19F00A422CD /* class */,
 				12F5ABCD1FC71113003F0970 /* controller */,
-				12F5ABB71FC7102C003F0970 /* AppDelegate.h */,
-				12F5ABB81FC7102C003F0970 /* AppDelegate.m */,
-				12F5ABBD1FC7102C003F0970 /* Main.storyboard */,
 				12F5ABC01FC7102C003F0970 /* Assets.xcassets */,
-				12F5ABC21FC7102C003F0970 /* LaunchScreen.storyboard */,
 				12F5ABC51FC7102C003F0970 /* Info.plist */,
 				12F5ABC61FC7102C003F0970 /* main.m */,
 			);
